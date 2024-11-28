@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "brandName": "Toyota",
+    "condition": "Excellent",
+    "description": "Well-maintained with regular service records. One previous owner.",
+    "color": "Red",
+    "mileage": 25000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 2,
+    "brandName": "Honda",
+    "condition": "Good",
+    "description": "Minor scratches on the bumper. Two previous owners.",
+    "color": "Blue",
+    "mileage": 40000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 3,
+    "brandName": "Ford",
+    "condition": "Fair",
+    "description": "Needs new tires. Three previous owners.",
+    "color": "Black",
+    "mileage": 60000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 4,
+    "brandName": "Chevrolet",
+    "condition": "Excellent",
+    "description": "Recently serviced with new brakes. One previous owner.",
+    "color": "White",
+    "mileage": 15000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 5,
+    "brandName": "Nissan",
+    "condition": "Good",
+    "description": "Small dent on the passenger door. Two previous owners.",
+    "color": "Silver",
+    "mileage": 35000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 6,
+    "brandName": "BMW",
+    "condition": "Excellent",
+    "description": "Luxury features with regular maintenance. One previous owner.",
+    "color": "Black",
+    "mileage": 20000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 7,
+    "brandName": "Mercedes-Benz",
+    "condition": "Good",
+    "description": "Minor wear on the interior. Two previous owners.",
+    "color": "Grey",
+    "mileage": 45000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 8,
+    "brandName": "Audi",
+    "condition": "Fair",
+    "description": "Needs new battery. Three previous owners.",
+    "color": "Red",
+    "mileage": 55000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 9,
+    "brandName": "Volkswagen",
+    "condition": "Excellent",
+    "description": "Well-maintained with recent oil change. One previous owner.",
+    "color": "Blue",
+    "mileage": 18000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 10,
+    "brandName": "Subaru",
+    "condition": "Good",
+    "description": "Small scratch on the hood. Two previous owners.",
+    "color": "White",
+    "mileage": 32000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 11,
+    "brandName": "Mazda",
+    "condition": "Fair",
+    "description": "Needs new windshield. Three previous owners.",
+    "color": "Silver",
+    "mileage": 58000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 12,
+    "brandName": "Hyundai",
+    "condition": "Excellent",
+    "description": "Regularly serviced with new tires. One previous owner.",
+    "color": "Black",
+    "mileage": 22000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 13,
+    "brandName": "Kia",
+    "condition": "Good",
+    "description": "Minor dents on the bumper. Two previous owners.",
+    "color": "Grey",
+    "mileage": 42000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 14,
+    "brandName": "Jeep",
+    "condition": "Fair",
+    "description": "Needs new suspension. Three previous owners.",
+    "color": "Red",
+    "mileage": 62000,
+    "yearOfFirstRegistration": 2015
+  },
+  {
+    "id": 15,
+    "brandName": "Tesla",
+    "condition": "Excellent",
+    "description": "Electric vehicle with regular maintenance. One previous owner.",
+    "color": "Blue",
+    "mileage": 16000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 16,
+    "brandName": "Lexus",
+    "condition": "Good",
+    "description": "Small scratch on the door. Two previous owners.",
+    "color": "White",
+    "mileage": 30000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 17,
+    "brandName": "Volvo",
+    "condition": "Fair",
+    "description": "Needs new headlights. Three previous owners.",
+    "color": "Silver",
+    "mileage": 56000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 18,
+    "brandName": "Porsche",
+    "condition": "Excellent",
+    "description": "Sports car with regular service records. One previous owner.",
+    "color": "Black",
+    "mileage": 21000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 19,
+    "brandName": "Land Rover",
+    "condition": "Good",
+    "description": "Minor wear on the seats. Two previous owners.",
+    "color": "Grey",
+    "mileage": 41000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 20,
+    "brandName": "Jaguar",
+    "condition": "Fair",
+    "description": "Needs new engine oil. Three previous owners.",
+    "color": "Red",
+    "mileage": 59000,
+    "yearOfFirstRegistration": 2015
+  },
+  {
+    "id": 21,
+    "brandName": "Mini",
+    "condition": "Excellent",
+    "description": "Compact car with regular maintenance. One previous owner.",
+    "color": "Blue",
+    "mileage": 17000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 22,
+    "brandName": "Fiat",
+    "condition": "Good",
+    "description": "Small dent on the rear bumper. Two previous owners.",
+    "color": "White",
+    "mileage": 33000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 23,
+    "brandName": "Dodge",
+    "condition": "Fair",
+    "description": "Needs new air filters. Three previous owners.",
+    "color": "Silver",
+    "mileage": 57000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 24,
+    "brandName": "Chrysler",
+    "condition": "Excellent",
+    "description": "Well-maintained with recent brake service. One previous owner.",
+    "color": "Black",
+    "mileage": 23000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 25,
+    "brandName": "Buick",
+    "condition": "Good",
+    "description": "Minor scratches on the side. Two previous owners.",
+    "color": "Grey",
+    "mileage": 44000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 26,
+    "brandName": "Cadillac",
+    "condition": "Fair",
+    "description": "Needs new spark plugs. Three previous owners.",
+    "color": "Red",
+    "mileage": 61000,
+    "yearOfFirstRegistration": 2015
+  },
+  {
+    "id": 27,
+    "brandName": "GMC",
+    "condition": "Excellent",
+    "description": "SUV with regular service records. One previous owner.",
+    "color": "Blue",
+    "mileage": 19000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 28,
+    "brandName": "Ram",
+    "condition": "Good",
+    "description": "Small dent on the hood. Two previous owners.",
+    "color": "White",
+    "mileage": 31000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 29,
+    "brandName": "Infiniti",
+    "condition": "Fair",
+    "description": "Needs new tires. Three previous owners.",
+    "color": "Silver",
+    "mileage": 55000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 30,
+    "brandName": "Acura",
+    "condition": "Excellent",
+    "description": "Luxury sedan with regular maintenance. One previous owner.",
+    "color": "Black",
+    "mileage": 20000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 31,
+    "brandName": "Lincoln",
+    "condition": "Good",
+    "description": "Minor wear on the interior. Two previous owners.",
+    "color": "Grey",
+    "mileage": 40000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 32,
+    "brandName": "Mitsubishi",
+    "condition": "Fair",
+    "description": "Needs new battery. Three previous owners.",
+    "color": "Red",
+    "mileage": 58000,
+    "yearOfFirstRegistration": 2015
+  },
+  {
+    "id": 33,
+    "brandName": "Suzuki",
+    "condition": "Excellent",
+    "description": "Compact car with regular service records. One previous owner.",
+    "color": "Blue",
+    "mileage": 18000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 34,
+    "brandName": "Alfa Romeo",
+    "condition": "Good",
+    "description": "Small scratch on the bumper. Two previous owners.",
+    "color": "White",
+    "mileage": 32000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 35,
+    "brandName": "Maserati",
+    "condition": "Fair",
+    "description": "Needs new suspension. Three previous owners.",
+    "color": "Silver",
+    "mileage": 57000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 36,
+    "brandName": "Bentley",
+    "condition": "Excellent",
+    "description": "Luxury car with regular maintenance. One previous owner.",
+    "color": "Black",
+    "mileage": 21000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 37,
+    "brandName": "Rolls-Royce",
+    "condition": "Good",
+    "description": "Minor wear on the seats. Two previous owners.",
+    "color": "Grey",
+    "mileage": 41000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 38,
+    "brandName": "Lamborghini",
+    "condition": "Fair",
+    "description": "Needs new engine oil. Three previous owners.",
+    "color": "Red",
+    "mileage": 59000,
+    "yearOfFirstRegistration": 2015
+  },
+  {
+    "id": 39,
+    "brandName": "Ferrari",
+    "condition": "Excellent",
+    "description": "Sports car with regular service records. One previous owner.",
+    "color": "Blue",
+    "mileage": 17000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 40,
+    "brandName": "Aston Martin",
+    "condition": "Good",
+    "description": "Small dent on the rear bumper. Two previous owners.",
+    "color": "White",
+    "mileage": 33000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 41,
+    "brandName": "McLaren",
+    "condition": "Fair",
+    "description": "Needs new air filters. Three previous owners.",
+    "color": "Silver",
+    "mileage": 57000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 42,
+    "brandName": "Bugatti",
+    "condition": "Excellent",
+    "description": "Hypercar with regular maintenance. One previous owner.",
+    "color": "Black",
+    "mileage": 23000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 43,
+    "brandName": "Pagani",
+    "condition": "Good",
+    "description": "Minor scratches on the side. Two previous owners.",
+    "color": "Grey",
+    "mileage": 44000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 44,
+    "brandName": "Koenigsegg",
+    "condition": "Fair",
+    "description": "Needs new spark plugs. Three previous owners.",
+    "color": "Red",
+    "mileage": 61000,
+    "yearOfFirstRegistration": 2015
+  },
+  {
+    "id": 45,
+    "brandName": "Porsche",
+    "condition": "Excellent",
+    "description": "SUV with regular service records. One previous owner.",
+    "color": "Blue",
+    "mileage": 19000,
+    "yearOfFirstRegistration": 2020
+  },
+  {
+    "id": 46,
+    "brandName": "Land Rover",
+    "condition": "Good",
+    "description": "Small dent on the hood. Two previous owners.",
+    "color": "White",
+    "mileage": 31000,
+    "yearOfFirstRegistration": 2018
+  },
+  {
+    "id": 47,
+    "brandName": "Jaguar",
+    "condition": "Fair",
+    "description": "Needs new tires. Three previous owners.",
+    "color": "Silver",
+    "mileage": 55000,
+    "yearOfFirstRegistration": 2016
+  },
+  {
+    "id": 48,
+    "brandName": "Mini",
+    "condition": "Excellent",
+    "description": "Compact car with regular maintenance. One previous owner.",
+    "color": "Black",
+    "mileage": 20000,
+    "yearOfFirstRegistration": 2019
+  },
+  {
+    "id": 49,
+    "brandName": "Fiat",
+    "condition": "Good",
+    "description": "Minor wear on the interior. Two previous owners.",
+    "color": "Grey",
+    "mileage": 40000,
+    "yearOfFirstRegistration": 2017
+  },
+  {
+    "id": 50,
+    "brandName": "Dodge",
+    "condition": "Fair",
+    "description": "Needs new battery. Three previous owners.",
+    "color": "Red",
+    "mileage": 58000,
+    "yearOfFirstRegistration": 2015
+  }
+]
