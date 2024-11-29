@@ -14,7 +14,7 @@ public class CarDataLoader {
   private final CarRepository carRepository;
   private final VectorStore vectorStore;
 
-//  @PostConstruct
+  //  @PostConstruct
   void loadAllData() {
     carRepository
         .findAll()
@@ -22,7 +22,9 @@ public class CarDataLoader {
             car -> {
               var carDocument =
                   new Document(
-                      "brandName: "
+                      "id: "
+                          + car.getId()
+                          + ", brandName: "
                           + car.getBrandName()
                           + ", condition: "
                           + car.getCondition()
@@ -34,8 +36,8 @@ public class CarDataLoader {
                           + car.getMileage()
                           + ", year of registration: "
                           + car.getRegistration()
-                          +", location: "
-                          +car.getLocation(),
+                          + ", location: "
+                          + car.getLocation(),
                       Map.of("carId", car.getId()));
               vectorStore.add(List.of(carDocument));
 
