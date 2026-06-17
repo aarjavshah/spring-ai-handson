@@ -1,18 +1,22 @@
-package com.sample.arjav.spring_ai_demo;
+package com.sample.arjav.spring_ai_demo.rag.vector.loader;
 
+import com.sample.arjav.spring_ai_demo.domain.repository.CarRepository;
 import java.util.List;
 import java.util.Map;
-import lombok.RequiredArgsConstructor;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
 public class CarDataLoader {
 
   private final CarRepository carRepository;
   private final VectorStore vectorStore;
+
+  public CarDataLoader(CarRepository carRepository, VectorStore vectorStore) {
+    this.carRepository = carRepository;
+    this.vectorStore = vectorStore;
+  }
 
   //  @PostConstruct
   void loadAllData() {
@@ -49,3 +53,4 @@ public class CarDataLoader {
             });
   }
 }
+
