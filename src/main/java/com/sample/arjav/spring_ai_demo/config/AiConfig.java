@@ -1,7 +1,7 @@
 package com.sample.arjav.spring_ai_demo.config;
 
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
+import org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.context.annotation.Bean;
@@ -20,7 +20,10 @@ public class AiConfig {
                 """;
     return builder
         .defaultSystem(system)
-        .defaultAdvisors(new QuestionAnswerAdvisor(vs, SearchRequest.defaults()))
+        .defaultAdvisors(
+            QuestionAnswerAdvisor.builder(vs)
+                .searchRequest(SearchRequest.builder().build())
+                .build())
         .build();
   }
 }
