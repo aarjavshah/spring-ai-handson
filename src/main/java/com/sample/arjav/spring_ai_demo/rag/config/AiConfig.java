@@ -1,4 +1,4 @@
-package com.sample.arjav.spring_ai_demo.config;
+package com.sample.arjav.spring_ai_demo.rag.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor;
@@ -27,3 +27,4 @@ public class AiConfig {
         .build();
   }
 }
+

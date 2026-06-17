@@ -1,5 +1,0 @@
-package com.sample.arjav.spring_ai_demo;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface CarRepository extends JpaRepository<Car, Long> {}
